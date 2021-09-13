@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section {
+    display:flex;
+    align-items: center;
+
+    min-height: 500px;
+
+    margin: 0px 213px;
+}
+
+.portfolio__img {
+    width: 540px;
+}
+
+.portfolio__h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+
+    letter-spacing: -0.36px;
+
+    margin: 103px 0px 28px 0px;
+}
+
+.portfolio__p {
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+
+    margin-bottom: 71px;
+}
+
+.portfolio__botao {
+    padding: 17px 38px;
+    
+
+    border: 1px solid #33323D;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+}
+
+.portfolio__botao:hover {
+        background-color: #33323D;
+        color: #fafafa;
+}
+
+.manage-insure__card {
+    width:350px;
+    min-height: 500px;
+
+    border-top: 1px solid #00000013;
+    border-bottom: 1px solid #00000013;
+
+    margin-left: 125px;
+}
+
+.bookmark-fylo__card {
+    width:350px;
+    min-height: 500px;
+
+    border-top: 1px solid #00000013;
+    border-bottom: 1px solid #00000013;
+
+    margin-right: 125px;
+}
+
+.manage {
+    margin-top:94px;
+    margin-bottom: 80px;
+}
+
+.bookmark, .insure {
+    margin-bottom: 80px;
+}
+
+.fylo {
+    margin-bottom: 150px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    margin: 0px 165px 150px 165px;
+}
+
+.contato__h1 {
+
+    width:367px;
+    
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+}
+
+.contato__botao {
+    padding: 17px 50px;
+    margin-left: 575px;
+
+    border: 1px solid #33323D;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.contato__botao:hover {
+    background-color: #33323D;
+    color: #fafafa;;
+}

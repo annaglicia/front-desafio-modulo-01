@@ -1,0 +1,151 @@
+.hero {
+    display: flex;
+    align-items: flex-end;
+    
+    background-image: url("/assets/home/image-homepage-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 1110px;
+    min-height: 600px;
+
+    margin: 0px 165px 149px 165px;
+}
+
+.hero__card {
+    width: 445px;
+    min-height: 357px;
+}
+
+.hero__h1 {
+    margin: 56px 28px 53px 28px;
+    
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.44px;
+}
+
+.hero__button {
+    display: flex;
+}
+
+
+.hero__botao {
+    padding: 17px 33px 17px 49px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    background-image: url("/assets/icons/down-arrows.svg");
+    background-repeat: no-repeat;
+    background-position-x: 15px;
+    background-position-y: 18px;
+}
+
+
+.hero__botao:hover {
+    background-color: #5FB4A2;
+}
+
+.sobre {
+    display: flex;
+
+    margin: 0px 165px 150px 165px;
+
+    min-height: 600px;
+}
+
+.sobre__img {
+    width: 540px;
+
+    margin-right: 140px;
+}
+
+.sobre__card {
+    border-top: 1px solid #97969e0c;
+    border-bottom: 1px solid #97969e0c;
+}
+
+.sobre_h2 {
+    margin-top: 51px;
+    margin-bottom: 28px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.36px;
+}
+
+.sobre__texto {
+    margin-bottom: 41px;
+    
+    width: 430px;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+.sobre_botao {
+    padding: 17px 18px;
+    margin: 0px 113px 46px 113px;
+
+    border: 1px solid #33323D;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.sobre_botao:hover {
+    background-color: #33323D;
+    color:#fafafa;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    margin: 0px 165px 150px 165px;
+}
+
+.contato__h1 {
+
+    width:367px;
+    
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+}
+
+.contato__botao {
+    padding: 17px 50px;
+    margin-left: 575px;
+
+    border: 1px solid #33323D;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}
+
+.contato__botao:hover {
+    background-color: #33323D;
+    color: #fafafa;;
+}
